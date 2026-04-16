@@ -5,8 +5,10 @@ import { AnimatedLetter } from '../components/AnimatedLetter'
 import { HeaderNav } from '../components/HeaderNav'
 import { WordsPullUp } from '../components/WordsPullUp'
 import { WordsPullUpMultiStyle } from '../components/WordsPullUpMultiStyle'
+import { Link } from "react-router-dom";
 
 export function Home() {
+  const MotionLink = motion(Link);
   const aboutText =
     'Over the past few years, I have worked on building scalable web applications using React, Next.js, and modern frontend tooling. I focus on performance optimization, clean architecture, and delivering seamless user experiences across devices. My work bridges design and engineering to create products that are both functional and visually refined.'
 
@@ -69,8 +71,8 @@ export function Home() {
                   experience across platforms.
                 </motion.p>
 
-                <motion.a
-                  href="/contact"
+                <MotionLink
+                  to="/contact"
                   initial={{ y: 20, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{
@@ -84,7 +86,7 @@ export function Home() {
                   <span className="grid h-9 w-9 place-items-center rounded-full bg-black transition-transform group-hover:scale-110 sm:h-10 sm:w-10">
                     <ArrowRight className="h-4 w-4 text-primary sm:h-5 sm:w-5" />
                   </span>
-                </motion.a>
+                </MotionLink>
               </div>
             </div>
           </div>
