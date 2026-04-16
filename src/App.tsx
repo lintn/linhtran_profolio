@@ -133,7 +133,7 @@ function App() {
 
           <p
             ref={aboutRef}
-            className="mx-auto mt-7 max-w-4xl text-xs text-[#DEDBC8] sm:text-sm md:text-base"
+            className="mx-auto mt-7 max-w-4xl whitespace-pre-wrap break-words text-xs text-[#DEDBC8] sm:text-sm md:text-base"
           >
             {aboutChars.map((char, idx) => (
               <AnimatedLetter

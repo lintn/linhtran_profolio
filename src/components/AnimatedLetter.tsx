@@ -22,7 +22,7 @@ export function AnimatedLetter({
 
   return (
     <motion.span style={{ opacity }} className={className}>
-      {char === ' ' ? '\u00A0' : char}
+      {char}
     </motion.span>
   )
 }
