@@ -4,12 +4,10 @@ import { Contact } from './pages/Contact'
 import { Experience } from './pages/Experience'
 import { Projects } from './pages/Projects'
 import { Skills } from './pages/Skills'
-import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   return (
     <BrowserRouter>
-      <Analytics />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
