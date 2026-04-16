@@ -19,9 +19,9 @@ const projects: Project[] = [
     subtitle: 'Next.js • TypeScript • Tailwind',
     description:
       'A scalable auction system with real-time bidding, approval workflows, and admin dashboards. Focused on performance and clean architecture.',
-    cta: { label: 'View Case Study', href: 'https://pionline.vn/' },
+    cta: { label: 'Live Demo', href: 'https://pionline.vn/' },
     thumbnail:
-      'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_171918_4a5edc79-d78f-4637-ac8b-53c43c220606.png&w=1600&q=85',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTXddSQ_86Uh3tVExxAo7iGzLL2fID6vNmiA&s',
     chips: ['Real-time', 'Dashboards', 'Workflows'],
   },
   {
@@ -31,7 +31,7 @@ const projects: Project[] = [
       'A dynamic portfolio generator with drag-and-drop layout, multi-language support, and optimized rendering.',
     cta: { label: 'Live Demo', href: '#' },
     thumbnail:
-      'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260405_171741_ed9845ab-f5b2-4018-8ce7-07cc01823522.png&w=1600&q=85',
+      '/profolio.png',
     chips: ['Drag & drop', 'i18n', 'Perf'],
   },
   {
