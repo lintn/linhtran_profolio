@@ -1,1 +1,1 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/animatedletter.tsx","./src/components/wordspullup.tsx","./src/components/wordspullupmultistyle.tsx"],"version":"5.9.3"}
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/animatedletter.tsx","./src/components/headernav.tsx","./src/components/wordspullup.tsx","./src/components/wordspullupmultistyle.tsx","./src/pages/contact.tsx","./src/pages/experience.tsx","./src/pages/home.tsx","./src/pages/projects.tsx","./src/pages/skills.tsx"],"version":"5.9.3"}
